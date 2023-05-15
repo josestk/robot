@@ -4,6 +4,7 @@ from std_msgs.msg import String
 
 import motor
 import servos
+import leds
 
 motor_speed = 100
 
@@ -52,6 +53,9 @@ if __name__ == '__main__': #funcion principal
   init()
   try:
     listener()
+
+    leds.led = LED()
+    leds.led.colorWipe(255,255,255)
   except rospy.ROSInterruptException:
     pass
 
