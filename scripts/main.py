@@ -54,8 +54,6 @@ if __name__ == '__main__': #funcion principal
   try:
     listener()
 
-    leds.led = LED()
-    leds.led.colorWipe(255,255,255)
   except rospy.ROSInterruptException:
     pass
 
