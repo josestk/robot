@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-#motor 0 (servo C) it controls the direction of the wheels
-
 import RPi.GPIO as GPIO
 
 # motor_EN_A: Pin7  |  motor_EN_B: Pin11

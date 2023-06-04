@@ -4,7 +4,6 @@ from std_msgs.msg import String
 
 import motor
 import servos
-import leds
 
 motor_speed = 100
 
